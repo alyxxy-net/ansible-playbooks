@@ -4,3 +4,6 @@
 [submodule "roles/alyxxy-init"]
 	path = roles/alyxxy-init
 	url = https://github.com/alyxxy-net/ansible-role-alyxxy-init.git
+[submodule "roles/alyxxy-base"]
+	path = roles/alyxxy-base
+	url = https://github.com/alyxxy-net/ansible-role-alyxxy-base.git
