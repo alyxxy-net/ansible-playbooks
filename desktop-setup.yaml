@@ -3,12 +3,7 @@
   become: True
   ignore_unreachable: True
   roles:
-    - role: sm-base
-    - role: sm-kde
-    - role: sm-desktop
+    - role: alyxxy-base
+    - role: alyxxy-kde
+    - role: alyxxy-desktop
 
-- hosts: surface-book2
-  become: True
-  ignore_unreachable: True
-  roles:
-    - role: sm-surface
