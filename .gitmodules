@@ -7,3 +7,6 @@
 [submodule "roles/alyxxy-base"]
 	path = roles/alyxxy-base
 	url = https://github.com/alyxxy-net/ansible-role-alyxxy-base.git
+[submodule "roles/alyxxy-kde"]
+	path = roles/alyxxy-kde
+	url = https://github.com/alyxxy-net/ansible-role-alyxxy-kde.git
