@@ -13,3 +13,6 @@
 [submodule "roles/alyxxy-desktop"]
 	path = roles/alyxxy-desktop
 	url = https://github.com/alyxxy-net/ansible-role-alyxxy-desktop.git
+[submodule "roles/alyxxy-surface"]
+	path = roles/alyxxy-surface
+	url = https://github.com/alyxxy-net/ansible-role-alyxxy-surface.git
