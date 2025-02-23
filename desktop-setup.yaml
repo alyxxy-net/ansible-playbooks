@@ -1,5 +1,5 @@
 ---
-- hosts: desktops
+- hosts: latitude-test
   become: True
   ignore_unreachable: True
   roles:
