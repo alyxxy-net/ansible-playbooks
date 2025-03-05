@@ -1,5 +1,5 @@
 ---
-- hosts: latitude-test
+- hosts: desktops
   become: True
   ignore_unreachable: True
   roles:
@@ -7,3 +7,8 @@
     - role: alyxxy-kde
     - role: alyxxy-desktop
 
+- hosts: surface-book2
+  become: True
+  ignore_unreachable: True
+  roles:
+    - role: alyxxy-surface
