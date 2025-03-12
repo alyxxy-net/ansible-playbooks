@@ -7,7 +7,9 @@
     - role: alyxxy-kde
     - role: alyxxy-desktop
 
-- hosts: surface-book2
+- hosts: 
+    - surface-book2
+    - surface-pro7
   become: True
   ignore_unreachable: True
   roles:
